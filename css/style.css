@@ -1,0 +1,24 @@
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(to right top, #161214, #261521, #321833, #381d49, #362563, #362d78, #2f368e, #1a40a5, #2848ba, #3750d0, #4758e5, #585ffb);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+  }
+  .form-container{
+    margin-top: 10%;
+  }
+input{
+    height: 40px;
+    width: 400px;
+  }
+
+  select{
+    height: 40px;
+    width: 200px;
+  }
