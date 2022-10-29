@@ -1,6 +1,11 @@
+ *{ 
+  padding: 0;
+  margin: 0;
+ }
 
 body{
     height: 100vh;
+    font-family: 'Nanum Gothic', sans-serif;
     background-image: linear-gradient(to right top, #161214, #261521, #321833, #381d49, #362563, #362d78, #2f368e, #1a40a5, #2848ba, #3750d0, #4758e5, #585ffb);
 }
 
@@ -13,12 +18,75 @@ body{
   .form-container{
     margin-top: 10%;
   }
-input{
-    height: 40px;
+input , select{
+    height: 44px;
+    
+  }
+
+  input{
     width: 400px;
   }
 
+  .submit-btn{
+    width: 50px;
+    margin-left: -4px;
+  }
   select{
     height: 40px;
     width: 200px;
+  }
+
+  .containrt-result{
+
+    margin-top: 5%;
+  }
+
+  .submit-icon{
+    font-size: 30px;
+    margin-left: -43px;
+    margin-right: 20px;
+    
+  }
+
+.todo-item{
+  background-color: white;
+  padding: 0px;
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-title{
+display: inline-block;
+line-height: 3;
+padding-left: 17px;
+
+}
+
+
+
+.todo-icon{
+  font-size: 25px;
+  padding: 5px 10px;
+ 
+  padding: 15px;
+  color: white;
+}
+
+.todo-check{
+  margin-right: -4px ;
+  background-color: #362563;
+  
+  }
+
+  .todo-delet{
+    background-color: rgb(131, 38, 230);
+  }
+
+  .containrt-result1{
+    margin-top: 1%;
+  }
+
+  .containrt-result2{
+    margin-top: 1%;
   }
