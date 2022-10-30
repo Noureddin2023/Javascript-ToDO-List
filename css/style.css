@@ -25,11 +25,13 @@ input , select{
 
   input{
     width: 400px;
+    margin-left: 20px;
   }
 
   .submit-btn{
     width: 50px;
     margin-left: -4px;
+    
   }
   select{
     height: 40px;
@@ -43,12 +45,17 @@ input , select{
 
   .submit-icon{
     font-size: 30px;
-    margin-left: -43px;
-    margin-right: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 2px;
+    
+    
+    
     
   }
 
 .todo-item{
+  margin: 5px 0px;
   background-color: white;
   padding: 0px;
   width: 450px;
@@ -90,3 +97,17 @@ padding-left: 17px;
   .containrt-result2{
     margin-top: 1%;
   }
+
+  .button-icon{
+    margin-right: 25px;
+    padding-bottom: 11px;
+    padding-top: 2px;
+    
+  }
+
+.completed-todo{
+  opacity: .6;
+}
+.remove-todo{
+  display: none;
+}
